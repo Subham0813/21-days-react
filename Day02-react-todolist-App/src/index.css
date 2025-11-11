@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Smooth switch animation */
+html, body {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.bg-light-bg { background-color: #F7F9F5; }
+.text-light-text { color: #46594A; }
+.bg-light-primary { background-color: #E7F1E8; }
+.bg-light-secondary { background-color: #AFCFB3; }
+.border-light-secondary { border-color: #AFCFB3; }
+
+/* Dark theme */
+.bg-dark-bg { background-color: rgb(24, 28, 20); }
+.text-dark-text { color: rgb(236, 223, 204); }
+.bg-dark-primary { background-color: rgb(60, 61, 55); }
+.bg-dark-secondary { background-color: rgb(105, 117, 101); }
+.border-dark-secondary { border-color: rgb(105, 117, 101); }
